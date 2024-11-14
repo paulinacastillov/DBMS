@@ -1,0 +1,78 @@
+/* Minimalistic Design with Wide Margins and Accent Colors */
+body {
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    background-color: #fdfaf6; /* Light creme background */
+    margin: 50px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f0e4d7;
+    font-weight: bold;
+    color: #5a3d2b;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f2ec;
+}
+
+input[type="submit"], input[type="button"], button {
+    background-color: #f0e4d7; /* Accent creme color */
+    color: #5a3d2b;
+    border: 1px solid #e0cbb1;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px auto; /* Automatic margin */
+    display: block; /* Center the button */
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+input[type="submit"]:hover, input[type="button"]:hover, button:hover {
+    background-color: #e6d3be;
+    border-color: #d8bfa3;
+}
+
+button {
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type="text"] {
+    background-color: #fdfaf6; /* Match body background */
+    border: 1px solid #ddd;
+    padding: 8px;
+    border-radius: 4px;
+    width: calc(100% - 20px);
+    color: #333;
+    margin-top: 5px;
+}
+
+p {
+    text-align: center;
+}
+
+form {
+    display: inline-block;
+}
