@@ -1,0 +1,13 @@
+3
+Equipo1
+Exploratory
+2024-11-11
+555
+Equipo2
+Exploratory
+2024-11-11
+555
+Equipo3
+Exploratory
+2024-11-11
+555
